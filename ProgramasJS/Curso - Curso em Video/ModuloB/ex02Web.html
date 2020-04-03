@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meu Segundo Programa em HTML </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+      body {
+        background-color: rgb(105, 105, 175);
+        color: white;
+        font: normal 20pt Arial;
+      }
+      h1 {
+        color:rgb(255, 212, 22);
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <h1>Hello World!</h1>
+    <p>Estou pronto para programar em html e js</p>
+    <script >
+      var nome = window.prompt("Qual o seu nome por favor?: ")
+      window.alert("Eh um grande prazer em conhece-lo, " + nome)
+      //Salvar informacao em variavel.
+      var n1 = Number.parseInt(window.prompt("Digite seu número: "))
+      var n2 = Number.parseInt(window.prompt("Digite outro número: "))
+      var n3 = n1+ n2
+      /*
+          (number + number) = somatorio de numeros
+          (string + string) = concatenacao de palavras
+      */
+      //Number.parseInt()
+      window.alert(`A soma dos numeros ${n1}e ${n2} eh ${n3}`)
+    </script>
+  </body>
+</html>

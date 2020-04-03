@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Primeiro Programa Aplicando o DOM_JS</title>
+    <style>
+    body {
+      background: white;
+      color: black;
+      font: normal 22pt Verdana;
+    }
+    </style>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    </head>
+    <body>
+      <h1>Teste para checar vericidade da conexão entre o VS code e o Google Chrome!</h1>
+      <p>Vejamos o que  saiu:</p>
+      <p>Aprendendo a como utilizar o <strong>DOM</strong> no JavaScript!</p>
+      <div name = "msg">Clique aqui para mais informações.</div>
+    <script>
+      var corpo = window.document.body
+      var p1 = window.document.getElementsByTagName('p')[1]
+      var d = window.document.body.getElementsByName('msg')[0]
+      d.innerText = "Oi"
+    </script>
+  </body>
+</html>

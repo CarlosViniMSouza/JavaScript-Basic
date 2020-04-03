@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt-BR"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eventos - DOM_JS</title>
+    <style>
+      div#Area {
+        background:  rgb(42, 139, 42);
+        color: white;
+        font: normal 20pt Arial;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        width: 200px;
+    }
+    </style>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    </head>
+    <body>
+      <div id = "Area">
+        Passe o mouse
+      </div>
+    <script>
+      var a = window.document.getElementById('Area')
+      a.addEventListener('click', clicar)
+      a.addEventListener('mouseenter', entrar)
+      a.addEventListener('mouseout', sair)
+        function clicar () {
+            a.innerText = 'Clicou'
+            a.style.background = 'red'
+        }
+        function entrar() {
+          a.innerText = 'Entrou'
+          a.style.background = 'Blue'
+        }
+        function sair() {
+          a.innerText = 'Saiu'
+          a.style.background = 'green'
+        }
+    </script>
+  </body>
+</html>
