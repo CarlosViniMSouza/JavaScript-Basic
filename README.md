@@ -1,4 +1,5 @@
-## Projeto-JavaScript
+## JavaScript-Basic
+
  - Aqui estarão todos os programas desenvolvidos em JS {sejam projetos pessoais ou cursos referentes ao básico do JavaScript}
  
  <a href="https://becode.com.br/wp-content/uploads/2016/10/Por-que-usar-JavaScript"><img src="https://becode.com.br/wp-content/uploads/2016/10/Por-que-usar-JavaScript.gif" title="The Power of JavaScript in programming"/></a>
